@@ -4,18 +4,9 @@
   background: #000;
 }
 
-.App1{
-  background: #000;
+.hr{
+  background-color: red;
 }
-
-.App2{
-  background: red;
-}
-
-.App3{
-  background: brown;
-}
-
  /* media Query  @media screen and (max-width: 900px) and (min-width: 600px) */
 
  /* Mobile */

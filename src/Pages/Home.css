@@ -1,0 +1,41 @@
+.home-div{
+    background: #000;
+   display: flex;
+    margin: auto;
+    margin-top: 2rem;
+}
+.left-div{
+  width: 40%;
+  margin: auto;
+  font-size: 56px;
+
+}
+.tag-line{
+    font-size: 25px;
+    color: orange;
+}
+.Resume-btn{
+    width: 145px;
+    background: #239ad6;
+    height: 42px;
+    border-radius: 4rem;
+    color: white;
+    font-size: 20px;
+
+}
+.Resume-btn:hover{
+    width: 145px;
+    background: white;
+    height: 42px;
+    border-radius: 4rem;
+    color: black;
+    
+}
+.right-div{
+  width: 40%;
+}
+.profile-img{
+    width: 80%;
+    height: 400px;
+    border-radius: 200px;
+}

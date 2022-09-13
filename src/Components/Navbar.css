@@ -7,13 +7,14 @@
 }
 
 .Links {
-    color: orange;
+    color: white;
    font-size: 44px;
    text-decoration: none;
    margin-top: 2rem; 
 }
 .Links:hover{
-    color: white;
+   
+    color: orange;
 }
 
 
