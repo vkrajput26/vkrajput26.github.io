@@ -1,0 +1,64 @@
+.NavbarLink{
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+   
+}
+
+.Links {
+    color: orange;
+   font-size: 44px;
+   text-decoration: none;
+   margin-top: 2rem; 
+}
+.Links:hover{
+    color: white;
+}
+
+
+
+ /* Mobile */
+ @media screen and (max-width: 480px) and (min-width: 320px)  {
+    .NavbarLink{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    
+       }
+       .Links {
+        color: orange;
+       font-size: 14px;
+       text-decoration: none;
+       margin-top: 2rem; 
+    }
+  }
+  
+  
+  /* Tablet */
+  @media screen and (max-width: 768px) and (min-width: 481px)  {
+    .NavbarLink{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    
+       }
+
+       .Links {
+        color: orange;
+       font-size: 24px;
+       text-decoration: none;
+       margin-top: 2rem; 
+    }
+       
+  }
+  
+  
+  /* Desktop */
+  @media screen and (max-width: 1300px) and (min-width: 769px)  {
+   .NavbarLink{
+    width: 100%;
+   }
+  }
