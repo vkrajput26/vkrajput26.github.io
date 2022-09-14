@@ -13,10 +13,29 @@ function App() {
   return (
     <div className="App">
     
-        <Navbar/>
+   <Navbar/>
         <hr className='navbar-line'/>
-        <AllRoute/>
-        
+      
+        <AllRoute/> 
+        {/* <section id='#'>
+          <Navbar/>
+        </section>
+        <section id='#home' >
+          <Home/>
+        </section>
+        <section id='#about'>
+          <About/>
+        </section>
+        <section id='#project'>
+          <Projects/>
+        </section>
+        <section id='#skills'>
+            <Skills/>
+        </section>
+        <section id='#contact'>
+          <Contact/>
+        </section>
+       */}
     </div>
   );
 }

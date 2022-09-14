@@ -2,7 +2,10 @@
     width: 100%;
    
 }
-
+.title{
+    text-align: center;
+    font-size: 40px;
+}
 .project-box{
   width: 60%;
   border: 1px solid white;
@@ -69,6 +72,7 @@
     border-radius: 4rem;
     color: white;
     text-align: center;
+    cursor: pointer;
   
  }
 .code-btn div:hover{
