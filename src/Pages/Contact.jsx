@@ -4,8 +4,9 @@ const Contact=(props)=> {
     return (
         <>
         <div className='contact' >
+            
             <div className='left-div'>
-                <div>Have an idea</div>
+                <div className='havean-div'>Have an idea</div>
                 <div className='inside-text'>Let's Connect</div>
                 <br />
                 <div className='email-div' >

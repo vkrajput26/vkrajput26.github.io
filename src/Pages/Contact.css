@@ -67,3 +67,80 @@
     margin-top: 40px;
     
 }
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) and (min-width: 320px)  {
+   
+    .inside-text{
+        font-size: 14px;
+    }
+    .havean-div{
+        font-size: 25px;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(29, 24, 24);
+        width: 100%;
+        height: auto;
+      }
+      .copyright-div{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 40px;
+        
+    }
+}
+
+
+/* Tablet */
+@media screen and (max-width: 768px) and (min-width: 481px)  {
+    .left-div{
+        width: 50%;
+        
+      }
+      .right-div{
+          width: 50%;
+          margin-top: 25px;
+      }
+   
+    .inside-text{
+        font-size: 18px;
+    }
+    .email-div{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .phone-div{
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+
+/* Desktop */
+@media screen and (max-width: 1300px) and (min-width: 769px)  {
+    .left-div{
+        width: 40%;
+        
+      }
+      .right-div{
+          width: 40%;
+          margin-top: 25px;
+      }
+      .email-div{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .phone-div{
+        display: flex;
+        gap: 1rem;
+    }
+    .inside-text{
+        font-size: 23px;
+    }
+}

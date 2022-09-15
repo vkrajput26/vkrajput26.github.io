@@ -1,3 +1,8 @@
+.navbar-main-box{
+    display: flex;
+    justify-content: space-between;
+  
+}
 .NavbarLink{
     height: 100px;
     display: flex;
@@ -5,34 +10,90 @@
     gap: 3rem;
    
 }
+.name-div{
+   margin-left: 1.5rem;
+}
+.hambergur{
+    display: none;
+}
+.first-latter{
+    color: orange;
+}
 
 .Links {
     color: white;
-   font-size: 40px;
+   font-size: 30px;
    text-decoration: none;
    margin-top: 2rem; 
+   letter-spacing: 0.5px;
+   position: relative;
+
 }
 .Links:hover{
    
     color: orange;
+ 
+}
+.Links:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 15px;
+    transition: 0.3s;
+    background-color: orange;
+}
+.Links:hover:after{
+    width: 100%;
 }
 
 
 
  /* Mobile */
  @media screen and (max-width: 480px) and (min-width: 320px)  {
-    .NavbarLink{
+    /* .NavbarLink{
         width: 100%;
         display: flex;
         justify-content: center;
         gap: 3rem;
-    
+      
+       } */
+       .NavbarLink{
+        display: none;
        }
-       .Links {
-        color: orange;
-       font-size: 14px;
+    
+    .hambergur{
+        display: block;
+       width: 65px;
+    }
+    .Links {
+       
+        color: black;
+       font-size: 30px;
        text-decoration: none;
        margin-top: 2rem; 
+       letter-spacing: 0.5px;
+       position: relative;
+    
+    }
+    .Links:hover{
+       
+        color: orange;
+     
+    }
+    .Links:after{
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -15px;
+        transition: 0.3s;
+        background-color: orange;
+    }
+    .Links:hover:after{
+        width: 100%;
     }
   }
   
@@ -40,18 +101,49 @@
   /* Tablet */
   @media screen and (max-width: 768px) and (min-width: 481px)  {
     .NavbarLink{
+        display: none;
+       }
+    /* .NavbarLink{
         width: 100%;
         display: flex;
         justify-content: center;
         gap: 3rem;
     
-       }
+       } */
 
-       .Links {
-        color: orange;
-       font-size: 24px;
+    
+
+    .Links {
+       
+        color: black;
+       font-size: 30px;
        text-decoration: none;
        margin-top: 2rem; 
+       letter-spacing: 0.5px;
+       position: relative;
+    
+    }
+    .Links:hover{
+       
+        color: orange;
+     
+    }
+    .Links:after{
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -15px;
+        transition: 0.3s;
+        background-color: orange;
+    }
+    .Links:hover:after{
+        width: 100%;
+    }
+    .hambergur{
+        display: block;
+        width: 65px;
     }
        
   }
@@ -62,4 +154,7 @@
    .NavbarLink{
     width: 100%;
    }
+   .hambergur{
+    display: none;
+}
   }

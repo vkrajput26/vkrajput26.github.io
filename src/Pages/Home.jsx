@@ -8,9 +8,12 @@ const Home=()=> {
     return (
       <>
         <div className='home-div'>
+        <div className='small-screen-div'>
+               <img className='profile-small-screen-img' src="https://avatars.githubusercontent.com/u/101566553?v=4" alt="" />
+          </div>
           <div className='left-div'>
             <div>Hi, I'am</div>
-            <div> Vivek Rajput</div>
+            <div > Vivek Rajput</div>
          
             <div className='tag-line'>Full Stack Web Developer</div>
             <a href="Vivek_Rajput Resume.pdf"  download="Vivek_Rajput Resume.pdf">

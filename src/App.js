@@ -7,13 +7,14 @@ import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import Skills from './Pages/Skills';
 import Contact from './Pages/Contact';
-
+import { ChakraProvider } from '@chakra-ui/react'
 function App() {
  
   return (
     <div className="App">
-    
+    <ChakraProvider>
    <Navbar/>
+   </ChakraProvider>
         <hr className='navbar-line'/>
       
         <AllRoute/> 

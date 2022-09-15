@@ -22,11 +22,81 @@
     text-align: center;
     color: black;
     border-radius: 12px;
+    
 }
 .icon-box:hover {
   background: rgb(238, 200, 130);
   color: white;
 }
+.skill-img{
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+   
+}
 .tag-name{
     font-size: 24px;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 480px) and (min-width: 320px)  {
+    .skills-box{
+        margin: auto;
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(2,110px);
+        grid-template-rows: auto;
+        gap: 2rem;
+    }
+    .icon-box{
+        background: white;
+        height: 120px;
+        width: 100px;
+        text-align: center;
+        color: black;
+        border-radius: 12px;
+    }
+    .tag-name{
+        font-size: 14px;
+    }
+}
+
+
+/* Tablet */
+@media screen and (max-width: 768px) and (min-width: 481px)  {
+    .skills-box{
+        margin: auto;
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(3,110px);
+        grid-template-rows: auto;
+        gap: 2rem;
+    }
+    .icon-box{
+        background: white;
+        height: 125px;
+        width: 110px;
+        text-align: center;
+        color: black;
+        border-radius: 12px;
+    }
+    .tag-name{
+        font-size: 18px;
+    }
+}
+
+
+/* Desktop */
+@media screen and (max-width: 1300px) and (min-width: 769px)  {
+    .skills-box{
+        margin: auto;
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(5,110px);
+        grid-template-rows: auto;
+        gap: 2rem;
+    }
 }
