@@ -11,6 +11,10 @@ const  About=(props)=> {
                      learner who possesses the ability to adapt to new environment quickly. Looking for a challenging 
                      role in the industry to utilize my skills and learn. 
             </div>
+            
+            <div className='mail-box'>
+           <span className='drop-letter'> Drop</span> a mail@ indvivekrajput@gmail
+            </div>
         </div>
     );
 }

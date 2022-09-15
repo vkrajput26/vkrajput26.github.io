@@ -16,7 +16,8 @@ const Home=()=> {
             <div > Vivek Rajput</div>
          
             <div className='tag-line'>Full Stack Web Developer</div>
-            <a href="Vivek_Rajput Resume.pdf"  download="Vivek_Rajput Resume.pdf">
+            <a href="https://drive.google.com/file/d/1BSw8HeMUp30gNrzQRFbHE1Vz5nF8BLpm/view?usp=sharing" 
+             download>
             <button className='Resume-btn'>Resume</button>
             </a>
           </div>
