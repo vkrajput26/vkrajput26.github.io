@@ -89,8 +89,20 @@
 }
 
 
+
+/* extra m-query */
+@media screen and (max-width: 900px) and (min-width: 769px) {
+    .skills-box{
+        margin: auto;
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(4,110px);
+        grid-template-rows: auto;
+        gap: 2rem;
+    }
+}
 /* Desktop */
-@media screen and (max-width: 1300px) and (min-width: 769px)  {
+@media screen and (max-width: 1300px) and (min-width: 901px)  {
     .skills-box{
         margin: auto;
         width: 60%;
@@ -98,5 +110,14 @@
         grid-template-columns: repeat(5,110px);
         grid-template-rows: auto;
         gap: 2rem;
+    }
+    .icon-box{
+        background: white;
+        height: 125px;
+        width: 110px;
+        text-align: center;
+        color: black;
+        border-radius: 12px;
+       
     }
 }

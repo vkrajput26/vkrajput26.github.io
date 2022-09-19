@@ -19,6 +19,16 @@ const Contact=(props)=> {
                       <h1 className='inside-text'> +91 7389243027</h1>  
                 </div>
 
+                <div className='phone-div' >
+             
+                      <a href="https://github.com/vkrajput26"> 
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfC0m7elWmE4H_SjVU4B-h6FDgSmk9JDxAIQ&usqp=CAU" alt="git-img" width="55px" />
+                       </a>
+                       <a href="https://www.linkedin.com/in/vivek-rajput-34924819b/"> 
+                      <img src="https://static.vecteezy.com/system/resources/thumbnails/008/385/541/small/linkedin-social-media-design-icon-symbol-logo-illustration-free-vector.jpg" alt="git-img" width="65px" />
+                       </a>
+                </div>
+
             </div>
 
             <div className='right-div' >

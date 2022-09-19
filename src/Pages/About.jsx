@@ -13,7 +13,7 @@ const  About=(props)=> {
             </div>
             
             <div className='mail-box'>
-           <span className='drop-letter'> Drop</span> a mail@ indvivekrajput@gmail
+           <span className='drop-letter'> Drop</span> a mail@ indvivekrajput@gmail.com
             </div>
         </div>
     );

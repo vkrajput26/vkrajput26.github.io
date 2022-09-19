@@ -3,6 +3,7 @@
    display: flex;
     margin: auto;
     margin-top: 2rem;
+    
 }
 .small-screen-div{
     display: none;
@@ -44,7 +45,9 @@
     height: 250px;
     border-radius: 200px;
 }
-
+.my-ges{
+   
+}
 
 
 
@@ -71,6 +74,12 @@
     gap: 1rem;
    
     
+    }
+    .my-name{
+        font-size: 24px;
+    }
+    .tag-line{
+        font-size: 20px;
     }
 }
 
