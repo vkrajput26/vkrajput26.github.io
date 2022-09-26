@@ -30,8 +30,8 @@ const Navbar=() =>{
                {/* <a href="#about" onClick={()=>setActive("#about")} className={active==="#about" ? 'active': "" } ><About/></a> */}
                <Link  activeClass="active" to ='/' onClick={()=>animateScroll.scrollToTop()} spy={true} smooth={true}  ></Link> 
            <Link className='Links' activeClass="active" to ='about' onClick={()=>setClick(true)} spy={true} smooth={true}  >About</Link> 
-            <Link className='Links' activeClass="active"  to="projects" onClick={()=>setClick(true)} spy={true} smooth={true} >Projects</Link>
             <Link className='Links' activeClass="active"  to="skills" onClick={()=>setClick(true)} spy={true} smooth={true} >Skills</Link>
+            <Link className='Links' activeClass="active"  to="projects" onClick={()=>setClick(true)} spy={true} smooth={true} >Projects</Link>
             <Link className='Links' activeClass="active"  to="contact" onClick={()=>setClick(true)} spy={true} smooth={true}>Contact</Link>
         </div>
 
@@ -53,10 +53,10 @@ const Navbar=() =>{
 
             </MenuItem>
             <MenuItem >
-            <Link className='Links' activeClass="active"  to="projects" onClick={()=>setClick(true)} spy={true} smooth={true} >Projects</Link>
+            <Link className='Links' activeClass="active"  to="skills" onClick={()=>setClick(true)} spy={true} smooth={true} >Skills</Link>
             </MenuItem>
             <MenuItem >
-            <Link className='Links' activeClass="active"  to="skills" onClick={()=>setClick(true)} spy={true} smooth={true} >Skills</Link>
+            <Link className='Links' activeClass="active"  to="projects" onClick={()=>setClick(true)} spy={true} smooth={true} >Projects</Link>
             </MenuItem>
             <MenuItem >
             <Link className='Links' activeClass="active"  to="contact" onClick={()=>setClick(true)} spy={true} smooth={true}>Contact</Link>
