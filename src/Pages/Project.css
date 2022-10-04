@@ -8,7 +8,7 @@
 }
 .project-box{
   width: 60%;
-  border: 1px solid white;
+  border: 6px solid white;
   border-radius: 12px;
   margin: auto;
   display: flex;
@@ -41,16 +41,17 @@
 }
 .tech-stack{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 44px;
+   
 }
 .tech-stack button{
-    font-size: 24px;
+    font-size: 22px;
     width: 145px;
-    background: #239ad6;
+   
     height: 42px;
-    border-radius: 4rem;
-    color: white;
+    border-radius: 2rem;
+    color: orange;
 }
 .tech-stack button:hover{
     font-size: 24px;
@@ -69,7 +70,7 @@
     width: 145px;
     background: #239ad6;
     height: auto;
-    border-radius: 4rem;
+   
     color: white;
     text-align: center;
     cursor: pointer;

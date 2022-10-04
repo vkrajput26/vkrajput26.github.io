@@ -5,6 +5,35 @@ const Projects=(props)=> {
     return (
         <div className='projects'>
                     <h1 className='title'>Projects</h1>
+
+                    <div className='project-box' >
+                        
+                        <div className='description-box' >
+                               
+                                <div className='project-title'> Lovoda Clone</div>
+                                
+                                <div className='project-desc'>Lovoda is an women jewellary accessories website. it is an team project, We have built the exact website clone as it is on the original website.</div>
+                                <div className='tech-stack' >
+                                      
+                                    <button>React</button>
+                                    <button>Redux</button>
+                                    <button>firebase</button>
+                                </div>
+                                <div className='code-btn'>
+                               <a className='anchor-tag' href="https://github.com/vkrajput26/-crazy-science-2420"> <div>Code</div>  </a>    
+                               <a className='anchor-tag' href="https://lovoda-clone-three.vercel.app/"> <div>Live</div> </a> 
+                                </div>
+
+                        </div>
+                        <div class="vl"></div>
+
+                        <div className='image-box' >
+                                <img  src="https://cdn.shopify.com/s/files/1/0627/7388/7215/files/13122-2_1500x.jpg?v=1645120932" alt="lovoda-img"    />
+                        </div>
+            </div>
+
+
+
             <div className='project-box' >
                         
                         <div className='description-box' >
