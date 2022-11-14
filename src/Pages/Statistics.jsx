@@ -12,7 +12,7 @@ const info=[
     },
     {
          id:2,
-        no_of_hours:'325+',
+        no_of_hours:'450+',
         title:"Git",
         subtitle:"Commits",
     },

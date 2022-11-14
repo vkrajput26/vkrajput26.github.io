@@ -12,7 +12,7 @@ const Projects=(props)=> {
                                
                                 <div className='project-title'> Lovoda Clone</div>
                                 
-                                <div className='project-desc'>Lovoda is an women jewellary accessories website. it is an team project, We have built the exact website clone as it is on the original website.</div>
+                                <div className='project-desc'>Lovoda is an women jewellery accessories website. it is an team project, We have built the exact website clone as it is on the original website.</div>
                                 <div className='tech-stack' >
                                       
                                     <button>React</button>

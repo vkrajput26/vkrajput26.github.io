@@ -2,6 +2,7 @@ import React from 'react';
 import About from './About';
 import Contact from './Contact';
 import Git from './Git';
+import Stats from './GitStats';
 import './Home.css'
 import Projects from './Projects';
 import Skills from './Skills';
@@ -32,6 +33,7 @@ const Home=()=> {
         <Skills/>
         <Projects/>
         <Statistics/>
+        <Stats/>
         <Git/>
         <Contact/>
 
