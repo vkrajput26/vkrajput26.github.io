@@ -16,10 +16,12 @@ import About from '../Pages/About';
     MenuOptionGroup,
     MenuDivider,
     IconButton,
-    Box
+    Box,
+    Button
             
 } from '@chakra-ui/react'
   import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
+import Resume from '../Pages/Resume';
 const Navbar=() =>{
    const [click,setClick] =useState(false)
     return (
@@ -33,6 +35,8 @@ const Navbar=() =>{
             <Link className='Links' activeClass="active"  to="skills" onClick={()=>setClick(true)} spy={true} smooth={true} >Skills</Link>
             <Link className='Links' activeClass="active"  to="projects" onClick={()=>setClick(true)} spy={true} smooth={true} >Projects</Link>
             <Link className='Links' activeClass="active"  to="contact" onClick={()=>setClick(true)} spy={true} smooth={true}>Contact</Link>
+            <Resume/>
+
         </div>
 
         <   div className='hambergur'>
@@ -61,6 +65,9 @@ const Navbar=() =>{
             <MenuItem >
             <Link className='Links' activeClass="active"  to="contact" onClick={()=>setClick(true)} spy={true} smooth={true}>Contact</Link>
             </MenuItem>
+        
+            <Resume className='Links' />
+           
         </MenuList>
         </Menu>
         </  div>

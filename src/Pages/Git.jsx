@@ -50,7 +50,7 @@ const Git = () => {
 
         <Mobile>
         <div className='calender-div'>
-   <div style={{textAlign:"center", fontSize: "20px" ,marginBottom:"10px",marginTop:"30px" }}>My GitHub Calender</div>
+   <div style={{textAlign:"center", fontSize: "20px" ,marginBottom:"10px",marginTop:"105px" }}>My GitHub Calender</div>
               <div > <GitHubCalendar username="vkrajput26"  year={new Date().getFullYear()}      blockSize={10}
         fontSize={10}  blockMargin={3} >    
   <ReactTooltip delayShow={20} html /> 

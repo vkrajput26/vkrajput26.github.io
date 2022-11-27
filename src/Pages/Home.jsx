@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Contact from './Contact';
+import Email from './Email';
 import Git from './Git';
 import Stats from './GitStats';
 import './Home.css'
@@ -36,6 +37,7 @@ const Home=()=> {
         <Stats/>
         <Git/>
         <Contact/>
+  
 
         </>
     );

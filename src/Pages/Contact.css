@@ -75,13 +75,13 @@
 @media screen and (max-width: 480px) and (min-width: 320px)  {
    
     .inside-text{
-        font-size: 14px;
+        font-size: 12px;
     }
     .havean-div{
         font-size: 25px;
     }
     .contact{
-        display: flex;
+        display: grid;
         justify-content: space-around;
         background-color: rgb(29, 24, 24);
         width: 100%;

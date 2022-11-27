@@ -27,12 +27,12 @@ const Skills=(props) =>{
                                <div className='tag-name' >Redux</div>
                         </div>
                         <div className='icon-box' >
-                               <img className='skill-img' src="https://pbs.twimg.com/profile_images/1290672565690695681/0G4bie6b_400x400.jpg"  alt="" /> 
-                               <div className='tag-name' >TypeScript</div>
+                               <img className='skill-img' src="https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png"  alt="" /> 
+                               <div className='tag-name' >MongoDB</div>
                         </div>
                         <div className='icon-box' >
-                               <img className='skill-img' src="https://icons-for-free.com/download-icon-cypress-1324440144114984250_512.png"  alt="" /> 
-                               <div className='tag-name' >Cypress</div>
+                               <img className='skill-img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"  alt="" /> 
+                               <div className='tag-name' >Nodejs</div>
                         </div>
                         <div className='icon-box' >
                                <img className='skill-img' src="https://1000logos.net/wp-content/uploads/2020/08/Git-Emblem.jpg"  alt="" /> 
